@@ -1,3 +1,3 @@
-![GitHub Statistics](general_stats.svg)
+<img src="general_stats.svg" alt="GitHub Statistics" loading="lazy">
 
-![Top Languages](language_stats.svg)
+<img src="language_stats.svg" alt="Top Languages" loading="lazy">
