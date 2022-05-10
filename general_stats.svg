@@ -12,9 +12,17 @@
             fill: #fff;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
           
     .stat {
       font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #9f9f9f;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
     }
     .stagger {
       opacity: 0;
@@ -54,7 +62,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 55.821164295416516;
+        stroke-dashoffset: 60.017761203336725;
       }
     }
   
@@ -123,8 +131,8 @@
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
           <text
-            x="-4"
-            y="0"
+            x="-5"
+            y="3"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
@@ -148,7 +156,7 @@
         x="175" 
         y="12.5" 
         data-testid="stars"
-      >4.2k</text>
+      >2k</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -163,7 +171,7 @@
         x="175" 
         y="12.5" 
         data-testid="commits"
-      >7k</text>
+      >7.1k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -178,7 +186,7 @@
         x="175" 
         y="12.5" 
         data-testid="prs"
-      >2k</text>
+      >2.5k</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -193,7 +201,7 @@
         x="175" 
         y="12.5" 
         data-testid="issues"
-      >206</text>
+      >220</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -208,7 +216,7 @@
         x="175" 
         y="12.5" 
         data-testid="contribs"
-      >53</text>
+      >67</text>
     </g>
   </g>
     </svg> 

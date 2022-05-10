@@ -12,6 +12,10 @@
             fill: #fff;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
           .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9f9f9f }
 
           
@@ -82,7 +86,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="277.51"
+          width="272.1"
           height="8"
           fill="#3572A5"
         />
@@ -90,9 +94,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="277.51"
+          x="272.1"
           y="0"
-          width="16.55"
+          width="20.53"
           height="8"
           fill="#00ADD8"
         />
@@ -100,9 +104,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="294.06"
+          x="292.63"
           y="0"
-          width="12.66"
+          width="13.3"
           height="8"
           fill="#dea584"
         />
@@ -110,9 +114,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="296.72"
+          x="295.93"
           y="0"
-          width="11.91"
+          width="12.370000000000001"
           height="8"
           fill="#384d54"
         />
@@ -120,9 +124,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="298.63000000000005"
+          x="298.3"
           y="0"
-          width="11.370000000000001"
+          width="11.7"
           height="8"
           fill="#555555"
         />
@@ -133,35 +137,35 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 92.50%
+        Python 90.70%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 5.52%
+        Go 6.84%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 0.89%
+        Rust 1.10%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#384d54" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dockerfile 0.64%
+        Dockerfile 0.79%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.46%
+        C 0.57%
       </text>
     </g>
   </g></g>
