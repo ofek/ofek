@@ -86,7 +86,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="272.12"
+          width="271.95"
           height="8"
           fill="#3572A5"
         />
@@ -94,9 +94,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="272.12"
+          x="271.95"
           y="0"
-          width="20.54"
+          width="20.71"
           height="8"
           fill="#00ADD8"
         />
@@ -104,9 +104,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="292.66"
+          x="292.65999999999997"
           y="0"
-          width="13.3"
+          width="13.29"
           height="8"
           fill="#dea584"
         />
@@ -114,7 +114,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="295.96000000000004"
+          x="295.95"
           y="0"
           width="12.34"
           height="8"
@@ -124,7 +124,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="298.3"
+          x="298.28999999999996"
           y="0"
           width="11.7"
           height="8"
@@ -137,14 +137,14 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 90.71%
+        Python 90.65%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 6.85%
+        Go 6.90%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
