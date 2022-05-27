@@ -5,7 +5,11 @@
         viewBox="0 0 495 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
       >
+        <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
+        <desc id="descId">Total Stars Earned: 2055, Total Commits  : 2055, Total PRs: 2495, Total Issues: 220, Contributed to: 66</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -62,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 59.16120572411998;
+        stroke-dashoffset: 59.11505787931437;
       }
     }
   
@@ -141,7 +145,6 @@
           </text>
         </g>
       </g>
-
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">

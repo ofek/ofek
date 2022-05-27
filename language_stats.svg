@@ -5,7 +5,11 @@
         viewBox="0 0 350 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
       >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
