@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="298.31"
           y="0"
-          width="11.7"
+          width="11.69"
           height="8"
           fill="#555555"
         />
@@ -169,7 +169,7 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.57%
+        C 0.56%
       </text>
     </g>
   </g></g>
