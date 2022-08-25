@@ -90,7 +90,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="272.52"
+          width="288.36"
           height="8"
           fill="#3572A5"
         />
@@ -98,19 +98,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="272.52"
+          x="288.36"
           y="0"
-          width="20.4"
-          height="8"
-          fill="#00ADD8"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="292.91999999999996"
-          y="0"
-          width="13.18"
+          width="14.24"
           height="8"
           fill="#dea584"
         />
@@ -118,21 +108,31 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="296.09999999999997"
+          x="292.6"
           y="0"
-          width="12.26"
+          width="13.3"
           height="8"
-          fill="#384d54"
+          fill="#00ADD8"
         />
       
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="298.35999999999996"
+          x="295.90000000000003"
           y="0"
-          width="11.64"
+          width="12.18"
           height="8"
           fill="#555555"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="298.08000000000004"
+          y="0"
+          width="11.93"
+          height="8"
+          fill="#384d54"
         />
       
 
@@ -141,35 +141,35 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 90.84%
+        Python 96.12%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
-      <circle cx="5" cy="6" r="5" fill="#00ADD8" />
+      <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 6.80%
+        Rust 1.41%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g>
-      <circle cx="5" cy="6" r="5" fill="#dea584" />
+      <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 1.06%
+        Go 1.10%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g>
-      <circle cx="5" cy="6" r="5" fill="#384d54" />
+      <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dockerfile 0.75%
+        C 0.73%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
-      <circle cx="5" cy="6" r="5" fill="#555555" />
+      <circle cx="5" cy="6" r="5" fill="#384d54" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.55%
+        Dockerfile 0.64%
       </text>
     </g>
   </g></g>
