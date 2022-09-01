@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
-        <desc id="descId">Total Stars Earned: 2135, Total Commits  : 2135, Total PRs: 3031, Total Issues: 243, Contributed to: 94</desc>
+        <desc id="descId">Total Stars Earned: 2136, Total Commits  : 2136, Total PRs: 3031, Total Issues: 243, Contributed to: 94</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -66,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 52.206662317776264;
+        stroke-dashoffset: 52.19251416242484;
       }
     }
   
