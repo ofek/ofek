@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
-        <desc id="descId">Total Stars Earned: 2151, Total Commits  : 2151, Total PRs: 3118, Total Issues: 250, Contributed to: 102</desc>
+        <desc id="descId">Total Stars Earned: 2151, Total Commits  : 2151, Total PRs: 3119, Total Issues: 250, Contributed to: 102</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -66,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 54.80765480593485;
+        stroke-dashoffset: 51.098194473119285;
       }
     }
   
@@ -129,7 +129,7 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle" 
+    <g data-testid="rank-circle"
           transform="translate(400, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
@@ -154,10 +154,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Stars Earned:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="175"
+        y="12.5"
         data-testid="stars"
       >2.2k</text>
     </g>
@@ -169,12 +169,12 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Commits:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="175"
+        y="12.5"
         data-testid="commits"
-      >7.6k</text>
+      >8.3k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -184,10 +184,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total PRs:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="175"
+        y="12.5"
         data-testid="prs"
       >3.1k</text>
     </g>
@@ -199,10 +199,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Issues:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="175"
+        y="12.5"
         data-testid="issues"
       >250</text>
     </g>
@@ -214,15 +214,15 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Contributed to:</text>
-      <text 
-        class="stat" 
-        x="175" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="175"
+        y="12.5"
         data-testid="contribs"
       >102</text>
     </g>
   </g>
-    </svg> 
+    </svg>
   
         </g>
       </svg>
