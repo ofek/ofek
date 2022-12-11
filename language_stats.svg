@@ -90,7 +90,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="270.48"
+          width="270.62"
           height="8"
           fill="#3572A5"
         />
@@ -98,9 +98,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="270.48"
+          x="270.62"
           y="0"
-          width="19.55"
+          width="19.46"
           height="8"
           fill="#00ADD8"
         />
@@ -108,9 +108,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="290.03000000000003"
+          x="290.08"
           y="0"
-          width="15.29"
+          width="15.27"
           height="8"
           fill="#dea584"
         />
@@ -118,9 +118,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="295.32000000000005"
+          x="295.34999999999997"
           y="0"
-          width="12.51"
+          width="12.5"
           height="8"
           fill="#555555"
         />
@@ -128,9 +128,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="297.83000000000004"
+          x="297.84999999999997"
           y="0"
-          width="12.16"
+          width="12.15"
           height="8"
           fill="#384d54"
         />
@@ -141,14 +141,14 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 90.16%
+        Python 90.21%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g>
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 6.52%
+        Go 6.49%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -162,7 +162,7 @@
     <g>
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.84%
+        C 0.83%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
