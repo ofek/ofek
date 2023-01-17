@@ -20,7 +20,38 @@
             /* Selector detects Firefox */
             .header { font-size: 15.5px; }
           }
-          .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9f9f9f }
+          
+    @keyframes slideInAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: calc(100%-100px);
+      }
+    }
+    @keyframes growWidthAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #9f9f9f;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    #rect-mask rect{
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    .lang-progress{
+      animation: growWidthAnimation 0.6s ease-in-out forwards;
+    }
+    
 
           
     /* Animations */
@@ -41,7 +72,7 @@
       }
     }
   
-          * { animation-duration: 0s !important; animation-delay: 0s !important; }
+          
         </style>
 
         
@@ -82,7 +113,7 @@
     <svg data-testid="lang-items" x="25">
       
     <mask id="rect-mask">
-      <rect x="0" y="0" width="300" height="8" fill="white" rx="5" />
+      <rect x="0" y="0" width="300" height="8" fill="white" rx="5"/>
     </mask>
     
         <rect
@@ -138,35 +169,35 @@
 
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">
-    <g>
+    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Python 90.21%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
-    <g>
+    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#00ADD8" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Go 6.48%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
-    <g>
+    <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#dea584" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Rust 1.76%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g>
+    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         C 0.83%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
-    <g>
+    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#384d54" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Dockerfile 0.72%
