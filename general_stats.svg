@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Ofek Lev's GitHub Stats, Rank: A++</title>
-        <desc id="descId">Total Stars Earned: 2279, Total Commits  : 2279, Total PRs: 3404, Total Issues: 289, Contributed to (last year): 117</desc>
+        <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
+        <desc id="descId">Total Stars Earned: 2280, Total Commits  : 2280, Total PRs: 3404, Total Issues: 289, Contributed to (last year): 115</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 106.18645612748061;
+        stroke-dashoffset: 54.552369174174885;
       }
     }
   
@@ -142,7 +142,7 @@
             dominant-baseline="central"
             text-anchor="middle"
           >
-            A++
+            S
           </text>
         </g>
       </g>
@@ -175,7 +175,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >439</text>
+      >8.7k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -220,7 +220,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >117</text>
+      >115</text>
     </g>
   </g>
     </svg>
