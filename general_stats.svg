@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
+        <title id="titleId">Ofek Lev's GitHub Stats, Rank: S+</title>
         <desc id="descId">Total Stars Earned: 2375, Total Commits  : 2375, Total PRs: 3563, Total Issues: 304, Contributed to (last year): 112</desc>
         <style>
           .header {
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 52.044527476783024;
+        stroke-dashoffset: 0.2191909383991818;
       }
     }
   
@@ -137,7 +137,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          S
+          S+
         </text>
       
         </g>
