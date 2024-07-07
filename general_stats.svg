@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ofek Lev's GitHub Stats, Rank: S</title>
-        <desc id="descId">Total Stars Earned: 3768, Total Commits  : 10837, Total PRs: 3987, Total Issues: 382, Contributed to (last year): 65</desc>
+        <desc id="descId">Total Stars Earned: 3768, Total Commits  : 10837, Total PRs: 3988, Total Issues: 382, Contributed to (last year): 65</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
